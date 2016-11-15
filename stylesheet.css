@@ -1,0 +1,33 @@
+
+
+div {
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+}
+
+.heading {
+  display: inline-block;
+  width:25%;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+#heading_one {
+  text-align: left;
+}
+
+#heading_two {
+  text-align: center;
+}
+
+#heading_three  {
+  text-align: right;
+}
+
+.content {
+  display: inline-block;
+  width: 25%;
+  border: 1px dotted black;
+}
