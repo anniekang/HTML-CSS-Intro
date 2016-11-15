@@ -7,16 +7,27 @@ div {
   margin-bottom: -10px;
 }
 
-.heading{
+.heading {
   display: inline-block;
-  width:200px;
+  width:25%;
   border: 1px solid black;
   font-weight: bold;
+}
+
+#heading_one {
+  text-align: left;
+}
+
+#heading_two {
   text-align: center;
+}
+
+#heading_three  {
+  text-align: right;
 }
 
 .content {
   display: inline-block;
-  width: 200px;
+  width: 25%;
   border: 1px dotted black;
 }
