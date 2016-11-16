@@ -1,6 +1,8 @@
 body{
   padding: 50px;
   margin: 20px;
+  font-family: Helvetica;
+  font-weight: bold;
 }
 
 .topheading{
@@ -18,16 +20,15 @@ body{
   margin: 0px;
   text-align: left;
   font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
+  color: #1DA1F2;
 }
 
 #login {
   position: absolute;
   width: 20%;
-  margin:1%;
-  padding: 2%;
-  right: 10px;
+  margin: 3%;
+  padding: 3%;
+  right: 10%;
   text-align: right;
 }
 
@@ -40,40 +41,36 @@ body{
 
 .heading{
   display: inline-block;
-  width: 30%;
-  margin: 1.5%;
+  width: 28%;
+  margin: 2%;
   padding: 0px;
-
   text-align: center;
   font-size: 20px;
 }
 
-/*#heading_one{
-  font-style: oblique;
-  text-align: left;
+h3{
+  height: 45px;
+  margin-bottom: 0%;
+  color: #1DA1F2;
 }
-
-#heading_two{
-  align-items: center;
-  font-family: fantasy;
-}
-
-#heading_three{
-  text-align: right;
-}*/
 
 .content{
-  text-align: justify;
+  text-align: left;
   font-weight: normal;
+  font-size: 18px;
+  padding: 10px;
 }
 
 #imageandslogan{
   position: relative;
-  width:100%;
-  margin: 0px;
-  margin-top: 2%;
+  width:60%;
+  margin: auto;
   margin-bottom: 20px;
-  background-image: URL("http://www.commonplaces.com/hs-fs/hub/203683/file-3052987960-jpg/blog-files/smartphone-world-twitter.jpg?t=1479328305645&width=1280&name=smartphone-world-twitter.jpg");
+}
+
+#backgroundimg{
+  background-image: URL("https://pbs.twimg.com/profile_images/643694074/globe-europe_400x400.jpg");
+  opacity: .4;
   background-size: cover;
   height: 650px;
 }
@@ -81,11 +78,11 @@ body{
 #slogan{
   position: absolute;
   width: 100%;
-  top:82%;
-  left:57%;
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
+  top:50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 34px;
+  color: black;
 }
 
 .copyright{
