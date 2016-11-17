@@ -5,7 +5,7 @@ body{
   font-weight: bold;
 }
 
-.topheading{
+.top-heading{
   display: inline-block;
   width: 100%;
   margin-left: 1%;
@@ -13,7 +13,7 @@ body{
   padding: 2%;
 }
 
-#projecttitle{
+#project-title{
   display:inline-block;
   width: 20%;
   padding: 0px;
@@ -32,7 +32,7 @@ body{
   text-align: right;
 }
 
-.headingandcontent{
+.heading-content{
   width: 75%;
   margin: auto;
   padding-left:0%;
@@ -61,14 +61,14 @@ h3{
   padding: 10px;
 }
 
-#imageandslogan{
+#image-slogan{
   position: relative;
   width:60%;
   margin: auto;
   margin-bottom: 20px;
 }
 
-#backgroundimg{
+#background-img{
   background-image: URL("https://pbs.twimg.com/profile_images/643694074/globe-europe_400x400.jpg");
   opacity: .4;
   background-size: cover;
